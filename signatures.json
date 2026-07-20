@@ -51,5 +51,8 @@
     "rules/global_standards/ai_risk_lifecycle.json":  "b4e7f87b0f70561a48d27e47198cf7816b1640559e5369a48fbff150dd157caf",
     "research/global_frameworks/Compliance_and_Risk_Management_Fundamentals.md":  "64a02832f1b71e27b019f327e88341d35c74e76f4a0582e0f61102cc7f292669",
     "research/global_frameworks/AI_Governance_Risk_Fundamentals.md":  "18ca4a3e7c89053adb414391a1216d4543d1348f9cc67c0173eef876f14af088",
-    "prompts/risk_and_compliance_playbook.md":  "3e7acdbc8c7bfd1d15df1e6202c481d49e2a7927ec2dc95f3f7fdf3335a758a1"
+    "prompts/risk_and_compliance_playbook.md":  "3e7acdbc8c7bfd1d15df1e6202c481d49e2a7927ec2dc95f3f7fdf3335a758a1",
+    "rules/global_standards/coso_internal_control.json":  "aa5aacf5fbddaf04320a583e9a911c31d4c9f4af6607f3c78141bf746dacd945",
+    "rules/global_standards/itgc_controls.json":  "c4a513d9b5c762be42e729201a96c9fe00e48c6f34996ae5f428037d8e1788e8",
+    "research/global_frameworks/GRC_Analyst_Fundamentals_and_Implementation.md":  "3bc5ccb1e2c325c8175895366dae9ea5cf977351727a58b3c319770bc26161ba"
 }

@@ -1,0 +1,19 @@
+{
+  "region": "Global",
+  "framework": "COSO Internal Control - Integrated Framework",
+  "compliance": {
+    "control_environment_tone_at_the_top": true,
+    "risk_assessment": true,
+    "control_activities": true,
+    "monitoring_activities": true,
+    "objectives_operations_reporting_compliance": true
+  },
+  "transparency": {
+    "information_and_communication": true,
+    "reliable_financial_and_nonfinancial_reporting": true
+  },
+  "ethics": {
+    "code_of_conduct": true,
+    "safeguard_assets_and_prevent_fraud": true
+  }
+}

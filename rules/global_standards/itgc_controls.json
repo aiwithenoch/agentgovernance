@@ -1,0 +1,21 @@
+{
+  "region": "Global",
+  "framework": "IT General Controls (ITGC) - SOX-aligned",
+  "security": {
+    "access_control_and_rbac": true,
+    "multi_factor_authentication": true,
+    "periodic_access_reviews": true,
+    "segregation_of_duties": true,
+    "system_monitoring_and_logging": true
+  },
+  "compliance": {
+    "change_management_approval_and_testing": true,
+    "it_operations_management": true,
+    "backup_and_recovery_offsite_storage": true,
+    "incident_management": true,
+    "sox_financial_reporting_integrity": true
+  },
+  "transparency": {
+    "audit_trails_and_evidence_retention": true
+  }
+}
