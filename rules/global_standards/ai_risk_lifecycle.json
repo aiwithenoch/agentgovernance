@@ -1,0 +1,26 @@
+{
+  "region": "Global",
+  "framework": "AI Risk Management (NIST AI RMF / OECD AI Principles)",
+  "compliance": {
+    "risk_based_tiering": true,
+    "human_in_the_loop_for_high_risk": true,
+    "human_on_the_loop_monitoring": true,
+    "kill_switch_for_high_risk_systems": true,
+    "validate_training_data_quality": true,
+    "guardrails_on_continuous_learning": true
+  },
+  "security": {
+    "monitor_model_outputs": true,
+    "prevent_data_poisoning": true,
+    "adversarial_robustness": true
+  },
+  "transparency": {
+    "explainability_and_reasoning_traceability": true,
+    "disclose_ai_use": true,
+    "vendor_ai_risk_assessment": true
+  },
+  "ethics": {
+    "mitigate_unwanted_bias": true,
+    "socio_technical_impact_review": true
+  }
+}

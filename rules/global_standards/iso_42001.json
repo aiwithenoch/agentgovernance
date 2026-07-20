@@ -1,0 +1,19 @@
+{
+  "region": "Global",
+  "framework": "ISO/IEC 42001 AI Management System (Auditable Standard)",
+  "compliance": {
+    "ai_management_system": true,
+    "lifecycle_governance": true,
+    "continuous_monitoring_and_validation": true,
+    "auditable_controls": true,
+    "residual_risk_within_tolerance": true
+  },
+  "transparency": {
+    "documented_ai_impact_assessment": true,
+    "define_system_boundaries_scope_and_purpose": true
+  },
+  "ethics": {
+    "address_unwanted_bias": true,
+    "protect_fundamental_rights": true
+  }
+}

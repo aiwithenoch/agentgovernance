@@ -44,5 +44,12 @@
     "tsconfig.app.json":  "b1eac9ba6cd1c01d59ebca159805e052c798d9d4ab904680b79ce3e306ea0bbd",
     "rules/africa/ke_ai_bill_2026.json":  "21f14eb19bd48730f82d17d101fddaf30ece3de004236f1d4fc85fbd6e43b081",
     "agentgovernance/memory_manager.py":  "527c5dacd0e3d52b0bcb800ed9124bf40561c508ff90f202de19cd9705d4707e",
-    "research/regional_focus/APAC_AI_Governance.md":  "c991280f0410378ffb7442a9c4d5e9bf911060d2ff5a3b2a5c74832febdf4fbe"
+    "research/regional_focus/APAC_AI_Governance.md":  "c991280f0410378ffb7442a9c4d5e9bf911060d2ff5a3b2a5c74832febdf4fbe",
+    "rules/global_standards/enterprise_risk_management.json":  "86f7b04bbbd0bb0f4086fa67001e3b834f4c30355935be3f9ee3deea38d74a40",
+    "rules/global_standards/compliance_program.json":  "ca64e938fd8b776a147edea30618adecdfe334ec983abd4c4eb0b9333067d472",
+    "rules/global_standards/iso_42001.json":  "272ea7dfc4a71258ad2c154c620c8702ee5db893d9b40a42c558c5c6e3f09560",
+    "rules/global_standards/ai_risk_lifecycle.json":  "b4e7f87b0f70561a48d27e47198cf7816b1640559e5369a48fbff150dd157caf",
+    "research/global_frameworks/Compliance_and_Risk_Management_Fundamentals.md":  "64a02832f1b71e27b019f327e88341d35c74e76f4a0582e0f61102cc7f292669",
+    "research/global_frameworks/AI_Governance_Risk_Fundamentals.md":  "18ca4a3e7c89053adb414391a1216d4543d1348f9cc67c0173eef876f14af088",
+    "prompts/risk_and_compliance_playbook.md":  "3e7acdbc8c7bfd1d15df1e6202c481d49e2a7927ec2dc95f3f7fdf3335a758a1"
 }

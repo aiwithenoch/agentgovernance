@@ -1,0 +1,18 @@
+{
+  "region": "Global",
+  "framework": "Enterprise Risk Management (ISO 31000 / COSO ERM / FSB Risk Appetite Principles)",
+  "compliance": {
+    "objective_centric_risk_assessment": true,
+    "dynamic_continuous_risk_review": true,
+    "three_lines_of_defense_model": true,
+    "documented_risk_acceptance_within_appetite": true,
+    "periodic_review_of_policy_exceptions": true,
+    "board_level_risk_oversight": true,
+    "quantify_likelihood_and_impact": true
+  },
+  "transparency": {
+    "risk_reporting_to_leadership": true,
+    "explain_residual_risk_to_management": true,
+    "avoid_static_heatmap_only_reporting": true
+  }
+}

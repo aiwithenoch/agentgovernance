@@ -1,0 +1,17 @@
+{
+  "region": "Global",
+  "framework": "Compliance Program Effectiveness (Tone-from-the-Top / FCPA Four Pillars)",
+  "compliance": {
+    "leadership_tone_from_the_top": true,
+    "written_policies_and_procedures": true,
+    "continuous_training_and_advice": true,
+    "multichannel_communication": true,
+    "highest_standard_recordkeeping_across_jurisdictions": true,
+    "treat_compliance_as_business_enabler": true
+  },
+  "ethics": {
+    "speak_up_culture": true,
+    "no_blame_for_good_faith_mistakes": true,
+    "escalation_encouraged": true
+  }
+}

@@ -149,6 +149,17 @@
 html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
 
 body {
@@ -1440,6 +1451,30 @@ input, textarea, select {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 24px;
+  position: relative;
+}
+
+/* Ambient hero backdrop — soft accent glow + faint grid */
+.landing::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1100px, 120vw);
+  height: 620px;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(60% 55% at 50% 0%, var(--accent-glow), transparent 70%),
+    radial-gradient(40% 40% at 78% 12%, color-mix(in srgb, var(--accent-2) 14%, transparent), transparent 70%);
+  filter: blur(8px);
+  opacity: 0.9;
+}
+
+.landing > * {
+  position: relative;
+  z-index: 1;
 }
 
 /* Nav */
@@ -1646,12 +1681,14 @@ input, textarea, select {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition: border-color 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out),
+    transform 0.18s var(--ease-out);
 }
 
 .landing-card:hover {
   border-color: var(--border-strong);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
 }
 
 .landing-card__icon {
